@@ -41,6 +41,20 @@ body {
     margin-left: 25px;
 }
 
+.footer {
+    padding: 30px;
+    width: 75%;
+    clear: both;
+    float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: none;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -77,6 +91,7 @@ p {
 
 .benefits {
     margin-right: 20px;
+    margin-bottom: 20px;
     padding: 20px;
     clear: both;
     float: right;
@@ -188,13 +203,4 @@ p {
     font-size: 36px;
 }
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
 
-.footer h2 {
-    font-size: 20px;
-}
