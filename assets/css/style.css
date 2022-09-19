@@ -25,10 +25,12 @@ p {
 }
 
 .header h1 {
+    /* Only uses as much space as needed */
     display: inline-block;
     font-size: 48px;
 }
 
+/* changes color of the letters seo in Horiseon */
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -41,6 +43,7 @@ p {
     font-size: 20px;
 }
 
+/* List style none means no bullet point format for the list */
 .header div ul {
     list-style-type: none;
 }
@@ -52,11 +55,13 @@ p {
 
 .footer {
     padding: 30px;
+    /* added width to limit footer from covering benefits area */
     width: 75%;
     clear: both;
     float: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    /* hides the text that isn't listed in final product image */
     display: none;
 }
 
@@ -64,6 +69,7 @@ p {
     font-size: 20px;
 }
 
+/* Float left and right are used to position the images in content section correctly in relation to their text headers and description*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -74,6 +80,7 @@ p {
     margin-left: 25px;
 }
 
+/* Used to set the large background image of 4 people working aroung a table */
 .hero {
     height: 800px;
     width: 100%;
@@ -83,14 +90,17 @@ p {
     background-position: center;
 }
 
+/* used for creating the space for the img and text list on bottom left of page*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* used for creating the space for the img and text list on bottom right of page*/
 .benefits {
     margin-right: 20px;
+    /* added margin bottom to create some space between bottom of web page and benefits section*/
     margin-bottom: 20px;
     padding: 20px;
     clear: both;
@@ -106,27 +116,7 @@ p {
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
 .benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -137,10 +127,30 @@ p {
     max-width: 150px;
 }
 
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .benefit-cost img {
@@ -149,6 +159,7 @@ p {
     max-width: 150px;
 }
 
+/* one of 3 related sections in contents */
 #search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -167,6 +178,7 @@ p {
     max-height: 200px;
 }
 
+/* one of 3 related sections in contents */
 #online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -185,6 +197,7 @@ p {
     max-height: 200px;
 }
 
+/* one of 3 related sections in contents */
 #social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
