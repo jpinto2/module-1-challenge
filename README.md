@@ -12,7 +12,9 @@ N/A
 ## Usage
 
 Visit this web address to see the github deployed page for the repo: https://jpinto2.github.io/module-1-challenge/
+
 Using chrome as the browser for the web page, right click on it and click inspect to use Chrome DevTools to inspect the html and CSS.
+
 This is an image of the expected result to work toward:
 
 ![alt expected website](https://github.com/jpinto2/module-1-challenge/blob/main/assets/images/01-html-css-git-homework-demo.png)
